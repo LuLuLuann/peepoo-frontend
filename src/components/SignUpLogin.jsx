@@ -1,18 +1,19 @@
-function SignUpLoginPage() {
+function SignUpLogin() {
     return (
        <>
        <h1>Sign Up / Login Page</h1>
+<form>
+{/* Links to all the common sign up/login with options (oauth)
 
-Links to all the common sign up/login with options
-
-or 
-
+or  */}
+<input type="email"></input>
+<input type="password"></input>
 email: _____
 password: ___ 
 
 Sign Up Button
 Login Button
-
+</form>
        </>
     );
 }
@@ -22,4 +23,4 @@ Login Button
 //     justifyContent: "space-around"
 // }
 
-export default SignUpLoginPage;
+export default SignUpLogin;

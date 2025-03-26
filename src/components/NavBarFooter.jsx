@@ -1,8 +1,9 @@
 function NavBarFooter() {
     return (
         <footer style={styles}>
-            <a href="">Insert Link 1</a>
-            <a href="">Insert Link 2</a>
+            <a href ="">Add a new Bathroom</a>
+            <a href="">My Profile Page (if logged in)</a>
+            <a href="">(Sign Up/Login)/(Logout)</a>
         </footer>
     );
 }

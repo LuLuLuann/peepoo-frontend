@@ -15,7 +15,7 @@ bathroom 2 they have added
 bathroom 3 they have added
 
 FAVORITE BATHROOMS:
-location 1 (hyperlinked so they can go to the bathroom profile easily)
+location 1 (hyperlinked so they can go to the bathroom profile easily) --- // full CRUD
 location 2 (hyperlinked so they can go to the bathroom profile easily)
 location 3 (hyperlinked so they can go to the bathroom profile easily)
 ...

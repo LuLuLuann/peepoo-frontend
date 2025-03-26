@@ -1,8 +1,10 @@
+import {NavLink} from "react-router-dom"
+
 function NavBarHeader() {
     return (
         <nav style={styles}>
-            <a href="">Insert Link 1</a>
-            <a href="">Insert Link 2</a>
+            <NavLink>Insert Link 1</NavLink>
+            <NavLink>Insert Link 2</NavLink>
         </nav>
     );
 }
