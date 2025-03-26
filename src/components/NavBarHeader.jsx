@@ -5,14 +5,13 @@ function NavBarHeader() {
         <nav style={styles}>
 
             {/* <a href  "../pages/AddBathroomPage.jsx">Add a new bathroom</a> */}
-            <ul>
-                <li>
-            <NavLink to "../pages/AddBathroomPage.jsx">Add a new Bathroom</NavLink>
-            </li>
-            <li>
-                <NavLink to "">Sign Up/Login Page</NavLink>
-                </li>
-            </ul>
+            
+            <NavLink to="">My Profile Page (if logged in)</NavLink>
+
+            {/* <NavLink to="/bathrooms/add-a-bathroom">Add a new Bathroom</NavLink> */}
+           
+                <NavLink to="user/SignUp-or-Login">Sign Up/Login /Log out</NavLink>
+               
         </nav>
     );
 }

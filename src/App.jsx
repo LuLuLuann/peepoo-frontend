@@ -25,11 +25,12 @@ function App() {
 
 
   return (
+
     <div>
       <NavBarHeader />
       <h1>Pee Poo Frontend Test</h1>
 
-      <p>This is where the search component will go </p>
+      {/* <p>This is where the search component will go </p> */}
       <hr />
       {/* <p>This is where the map view/ list view results will be able to be toggled or where the map will show up next to the list view.</p> */}
 
@@ -41,13 +42,14 @@ function App() {
         <Route path="/bathrooms/add-a-bathroom" element={<AddBathroomPage />}/>
         <Route path="/user/:id" element={<UserProfilePage />}/>
         <Route path="user/SignUp-or-Login" element={<SignUpLoginPage />} />
-        
+
       </Routes>
       <hr />
       <NavBarFooter />
       {/* this is how to get it but it wouldnt
       <ReviewForm bathroomType={selectedBathroomType} location={selectedLocation} /> */}
     </div>
+    
   )
 }
 

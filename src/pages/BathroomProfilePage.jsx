@@ -21,8 +21,10 @@ function BathroomProfilePage() {
     }, [id])
     return (
         <>
-            <h1>Bathroom Profile Page</h1>
-            <BathroomProfile bathroom={bathroom}/> // pass it down through props
+            {/* <h1>Bathroom Profile Page</h1> */}
+            <BathroomProfile bathroom={bathroom}/> 
+            
+            {/* pass it down through props */}
 
 
         </>

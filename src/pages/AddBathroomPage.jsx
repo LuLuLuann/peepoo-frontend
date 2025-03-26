@@ -8,10 +8,10 @@ import AddBathroom from '../components/AddBathroom.jsx'
 function AddBathroomPage() {
     return (
         <>
-            <NavBarHeader />
+            
             <h1>Add Bathroom Page</h1>
             <AddBathroom />
-            <NavBarFooter />
+          
 
         </>
     );

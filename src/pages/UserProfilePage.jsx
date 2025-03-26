@@ -6,12 +6,9 @@ import NavBarFooter from '../components/NavBarFooter'
 
 function UserProfilePage() {
     return (
-       <>
-        <NavBarHeader />
-       <h1>User Profile Page</h1>
- <NavBarFooter />
-
-       </>
+        <>
+            <h1>User Profile Page</h1>
+        </>
     );
 }
 

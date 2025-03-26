@@ -8,10 +8,10 @@ import SignUpLogin from '../components/SignUpLogin.jsx'
 function SignUpLoginPage() {
     return (
         <>
-            <NavBarHeader />
-            <h1>Sign Up / Login Page</h1>
+          
+            {/* <h1>Sign Up / Login Page</h1> */}
             <SignUpLogin />
-            <NavBarFooter />
+            
 
         </>
     );

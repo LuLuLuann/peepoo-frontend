@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate, useParams } from "react-router-dom";
+// import ;
 
 // Icons to show accessibility and what is available at the location -- men/women/unisex/family/handicap
 import { FaToilet, FaWheelchair, FaBaby, FaMale, FaFemale, FaUniversalAccess } from "react-icons/fa";
@@ -12,6 +14,15 @@ function BathroomProfile({ bathroom }) {
   const openTime = parseTime(bathroom.hours_of_operation?.split("-")[0]);
   const closeTime = parseTime(bathroom.hours_of_operation?.split("-")[1]);
   const isOpen = currentTime >= openTime && currentTime <= closeTime;
+
+  // <Routes>
+  //    <Route path="/bathrooms/:id/review" element={<ReviewFormPage />}/>
+  // </Routes>
+const {id}= useParams()
+  const navigate=useNavigate()
+  const handleVisitClick =()=>{
+navigate(`/bathrooms/${id}/review`)
+  }
 
   return (
     <div className="bathroom-profile">
@@ -50,7 +61,7 @@ function BathroomProfile({ bathroom }) {
       {bathroom.last_review?.diaper_machine && <p><strong>Diaper Machine:</strong> Available</p>}
       
       {/* not sure where to put this but the person will choose which bathroom type they visited "men/women/unisex/family/handicapped" and click on a button saying "I VISITED" which will link them to the review form for that bathroom */}
-      <button className="visit-button">I Visited</button>
+      <button className="visit-button" onClick={handleVisitClick}>I Visited</button>
     </div>
   );
 }
