@@ -3,8 +3,16 @@ import {NavLink} from "react-router-dom"
 function NavBarHeader() {
     return (
         <nav style={styles}>
-            <NavLink>Insert Link 1</NavLink>
-            <NavLink>Insert Link 2</NavLink>
+
+            {/* <a href  "../pages/AddBathroomPage.jsx">Add a new bathroom</a> */}
+            <ul>
+                <li>
+            <NavLink to "../pages/AddBathroomPage.jsx">Add a new Bathroom</NavLink>
+            </li>
+            <li>
+                <NavLink to "">Sign Up/Login Page</NavLink>
+                </li>
+            </ul>
         </nav>
     );
 }

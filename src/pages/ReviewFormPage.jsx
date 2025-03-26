@@ -5,10 +5,10 @@ import ReviewForm from '../components/ReviewForm.jsx'
 function ReviewFormPage() {
     return (
         <>
-            <NavBarHeader />
             <h1>Review Form Page</h1>
-            <ReviewForm />
-            <NavBarFooter />
+            {/* <ReviewForm /> */}
+            <ReviewForm bathroomType={selectedBathroomType} location={selectedLocation} />
+
 
         </>
     );

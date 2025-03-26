@@ -36,9 +36,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/bathrooms/:id" element={<BathroomProfilePage />} />
+
+        <Route path="/bathrooms/:id/review" element={<ReviewFormPage />}/>
+        <Route path="/bathrooms/add-a-bathroom" element={<AddBathroomPage />}/>
+        <Route path="/user/:id" element={<UserProfilePage />}/>
+        <Route path="user/SignUp-or-Login" element={<SignUpLoginPage />} />
+        
       </Routes>
       <hr />
       <NavBarFooter />
+      {/* this is how to get it but it wouldnt
+      <ReviewForm bathroomType={selectedBathroomType} location={selectedLocation} /> */}
     </div>
   )
 }
