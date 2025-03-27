@@ -28,3 +28,23 @@
    - They can see their list of favorited bathrooms. 
    - They can see a list of comments that they have made. 
 
+"dependencies": 
+    "@tailwindcss/vite": "^4.0.17",
+    "axios": "^1.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.0",
+    "tailwindcss": "^4.0.17"
+ 
+  "devDependencies": 
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+

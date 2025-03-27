@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-// import ;
+import addToFavs from "../assets/images/addToFavs.png";
 
 // Icons to show accessibility and what is available at the location -- men/women/unisex/family/handicap
 import { FaToilet, FaWheelchair, FaBaby, FaMale, FaFemale, FaUniversalAccess } from "react-icons/fa";

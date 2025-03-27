@@ -3,7 +3,9 @@ function NavBarFooter() {
         <footer style={styles}>
             <a href="/bathrooms/add-a-bathroom">Add a new Bathroom</a>
 
-                    <a href="user/SignUp-or-Login">Sign Up/Login/ Logout</a>
+                    <a href="/user/SignUp-or-Login">Sign Up/Login/ Logout</a> 
+
+                
         </footer>
     );
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react' // creates a temporary memory in the component (when you refresh it resets)
 import axios from "axios"
 
+
 // links to all components (if needed)
 import NavBarHeader from './components/NavBarHeader'
 import NavBarFooter from './components/NavBarFooter.jsx'
